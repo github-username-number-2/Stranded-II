@@ -1,4 +1,6 @@
 export default {
+  imageSmoothingEnabled: false,
+
   canvasDrawWidth: 1000,
   canvasDrawHeight: 480,
 

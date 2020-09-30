@@ -5,6 +5,11 @@ window.query = query => document.querySelector(query);
 window.body = query("body");
 window.canvas = query("#canvas-main");
 window.ctx = canvas.getContext("2d");
+ctx.imageSmoothingEnabled = PageData.imageSmoothingEnabled;
+
+window.canvasLoader = query("#canvas-loader");
+window.ctxLoader = canvasLoader.getContext("2d");
+ctxLoader.imageSmoothingEnabled = PageData.imageSmoothingEnabled;
 
 canvas.width = PageData.canvasDrawWidth;
 canvas.height = PageData.canvasDrawHeight;

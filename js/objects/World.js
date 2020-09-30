@@ -2,7 +2,8 @@ import WorldData from "/js/data/WorldData.js";
 import BlockData from "/js/data/BlockData.js";
 
 import WorldBlockMap from "/js/main/WorldBlockMap.js";
-WorldBlockMap["i"]="dssdsd"
+
+
 const blockWidth = BlockData.blockWidth,
   blockHeight = BlockData.blockHeight;
 

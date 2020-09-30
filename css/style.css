@@ -7,7 +7,16 @@ html, body {
 }
 
 #canvas-main {
-  width: 1000px;
-  height: 480px;
+  position: absolute;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  top: 0px;
+  left: 0px;
   background-color: #000000;
+}
+
+#canvas-loader {
+  position: absolute;
+  display: none;
 }
